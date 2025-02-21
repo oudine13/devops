@@ -52,6 +52,8 @@ It will output:
 {"status":"success","msg":"OK"}
 ```
 
+3. Get the user
+
 Send a GET (REST protocol) request using terminal:
 
 ```bash
