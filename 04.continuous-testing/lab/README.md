@@ -52,6 +52,20 @@ It will output:
 {"status":"success","msg":"OK"}
 ```
 
+Send a GET (REST protocol) request using terminal:
+
+```bash
+curl --header "Content-Type: application/json" \
+  --request GET \
+  http://localhost:3000/user/sergkudinov
+```
+
+It will output:
+
+```
+{"status":"success","msg":{"firstname":"sergei","lastname":"kudinov"}}
+```
+
 Another way to test your REST API is to use [Postman](https://www.postman.com/).
 
 ## Testing
